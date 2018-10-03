@@ -1,0 +1,180 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <script src="js/jquery-3.2.1.min.js"></script>
+    </head>
+    <body>
+        <div class="page">
+
+            <span class="menu_toggle">
+                <i class="menu_open fa fa-bars fa-lg"></i>
+                <i class="menu_close fa fa-times fa-lg"></i>
+            </span>
+
+            <ul class="menu_items">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Tourism</a></li>
+                <li><a href="#">Galery</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><form name="search">
+                <label class="search-box">
+                  <input type="text" />
+                  <span></span>
+                </label></li>
+                <li><p>Citra Nusantara</p></li>
+            </ul>
+
+            
+            <main class="content">
+                
+                <div class="content_inner">
+                    <div class="top"></div>
+                    <div class="s">
+                        <div class="sz1">
+                        <p>Wisata Pantai</p>
+                        </div>
+                        <div class="sz2">
+                        <a href="#" >See More</a>
+                        </div>
+                    </div>
+                    <div class="z0">
+                        <div class="zs1">
+                            <div class="tz">
+                                <p>Pelabuhan Ratu</p>
+                            </div>
+                        </div>
+                        <div class="zs2">
+                            <div class="tz">
+                                <p>Gili Meno</p>
+                            </div>
+                        </div>
+                        <div class="zs3">
+                            <div class="tz">
+                                <p>Indrayanti</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="s1">
+                        <div class="sa1">
+                        <p>Situs Bersejarah</p>
+                        </div>
+                        <div class="sa2">
+                        <a href="#" >See More</a>
+                        </div>
+                    </div>
+                    <div class="z">
+                        <div class="z1">
+                            <div class="tz">
+                                <p>Candi Borobudur</p>
+                            </div>
+                        </div>
+                        <div class="z2">
+                            <div class="tz">
+                                <p>Candi Prambanan</p>
+                            </div>
+                        </div>
+                        <div class="z3">
+                            <div class="tz">
+                                <p>Situs Sangiran</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="s2">
+                        <div class="sb1">
+                        <p>Pesona Pulau Indonesia</p>
+                        </div>
+                        <div class="sb2">
+                        <a href="#" >See More</a>
+                        </div>
+                    </div>
+                    <div class="za">
+                        <div class="za1">
+                            <div class="tz">
+                                <p>Raja Ampat</p>
+                            </div>
+                        </div>
+                        <div class="za2">
+                            <div class="tz">
+                                <p>Nusa Penida</p>
+                            </div>
+                        </div>
+                        <div class="za3">
+                            <div class="tz">
+                                <p>Lengkuas</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="s3">
+                        <div class="sc1">
+                        <p>Track Pendakian Terfavorit</p>
+                        </div>
+                        <div class="sc2">
+                        <a href="#" >See More</a>
+                        </div>
+                    </div>
+                    <div class="zb">
+                        <div class="zb1">
+                            <div class="tz">
+                                <p>Semeru</p>
+                            </div>
+                        </div>
+                        <div class="zb2">
+                            <div class="tz">
+                                <p>Rinjani</p>
+                            </div>
+                        </div>
+                        <div class="zb3">
+                            <div class="tz">
+                                <p>Triple S</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="s4">
+                        <div class="sd1">
+                        <p>Live Chat</p>
+                        </div>
+                        <div class="sd2">
+                        <a href="#" >See More</a>
+                        </div>
+                    </div>
+                    <div class="zc">
+                        <div class="zc1">
+                            <div class="tz">
+                                <p>Public</p>
+                            </div>
+                        </div>
+                        <div class="zc2">
+                            <div class="tz">
+                                <p>Private</p>
+                            </div>
+                        </div>
+                        <div class="zc3">
+                            <div class="tz">
+                                <p>[Intinya ngobrol sama creator web alias kitanya]</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="foot">
+                    <div class="foot1"></div>
+                    <div class="foot2"></div>
+                </div>
+            </main>
+        </div>
+
+        <script type="text/javascript">
+        
+        var $page = $('.page');
+
+        $('.menu_toggle').on('click', function() {
+            $page.toggleClass('shazam');
+        });
+
+        $('.content').on('click', function() {
+            $page.removeClass('shazam');
+        });
+        </script>
+    </body>
+</html>
